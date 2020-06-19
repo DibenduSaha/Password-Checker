@@ -1,5 +1,7 @@
-birth_year = input('What year were you born?')
-#print (type(birth_year))
-age = 2020 - int(birth_year)
+username = input('What is your username?')
+password = input('What is your password?')
 
-print(f'your age is: {age}')
+password_length = len(password)
+hidden_password = '*' * password_length
+
+print(f'{username}, your password, {hidden_password} is {password_length} letters long.')
