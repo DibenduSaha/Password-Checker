@@ -1,2 +1,2 @@
-# Password-Checker & Type Conversion
+# Password-Checker
 Python
